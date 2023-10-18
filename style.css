@@ -169,11 +169,3 @@ main {
 span {
   display: none;
 }
-
-a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  color: var(--clr-neutral-White);
-}
