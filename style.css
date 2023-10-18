@@ -162,7 +162,21 @@ main {
   background-color: var(--clr-primary-Dark-cyan);
 }
 
+.button__a {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  color: var(--clr-neutral-White);
+}
+
 .button:hover, :focus {
+  background-color: var(--clr-primary-Darker-cyan);
+}
+
+.button__a:hover, :focus {
   background-color: var(--clr-primary-Darker-cyan);
 }
 
